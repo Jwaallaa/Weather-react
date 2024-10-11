@@ -1,0 +1,26 @@
+.search{
+    overflow: hidden;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    text-align: center;
+}
+.search input{
+    width: 200px;
+    height: 25px;
+    border: 2px solid rgba(245, 245, 245, 0.337);
+    border-radius: 10px 2px 2px 10px;
+    outline: none;
+    padding: 0 4px;
+    
+}
+
+.search button{
+    cursor: default;
+    
+    width: 100px;
+    margin: 0 -2px;
+    height: 28px;
+    border-radius:  2px 10px 10px 2px ;
+    
+    border: 2px solid rgba(245, 245, 245, 0.337);
+}
