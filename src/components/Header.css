@@ -14,6 +14,9 @@ header{
         justify-self:start;
         margin-left: 9px;
         cursor: pointer;
+        .svg{
+            background-color: whitesmoke;
+        }
     }
 
 
