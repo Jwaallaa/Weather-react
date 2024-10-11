@@ -20,10 +20,15 @@ header{
 }
 .locations{
     display: flex;
-    width: 50%;
+    /* width: 50%; */
     justify-content: space-around;
     text-align: center;
     align-items: center;
+    position: fixed;
+    right: 0;
+    top:0;
+    transition: all 700ms ease;
+    /* background-color: whitesmoke; */
 }
 
 .location{
@@ -33,15 +38,30 @@ header{
     transition: all 400ms  ease ; 
 
 }
+.btn{
+
+cursor: pointer;}
 .location:hover{
     transform: scale(0.90);
     border: 2px solid rgba(245, 245, 245, 0.29);
     background-color: rgba(245, 245, 245, 0.29);
-
+    
 }
 
 .location:active{
     /* border: 2px solid red; */
     background-color: rgba(73, 63, 255, 0.5);
 
+}
+
+@media only screen and (max-width: 600px) {
+    .locations{
+        top: -100%;
+        flex-direction: column;
+    }
+    .locations-small{
+       position: fixed;
+       top: 0%;
+    }
+    
 }
