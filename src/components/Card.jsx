@@ -11,6 +11,8 @@ const Card = ({ Currweather, location, setLocation }) => {
   let humidity = Currweather?.main?.humidity;
   let wind = Currweather?.wind?.speed;
   let feels_like = Currweather?.main?.feels_like;
+  let celcius_feels_like = feels_like  ? (feels_like - 273.15).toFixed(2) : "N/A";
+
   let city = Currweather?.name;
 
   return (
