@@ -29,7 +29,7 @@ const Card = ({ Currweather, location, setLocation }) => {
       <div className="extras">
         <div className="feels_like">
           <div className="title">Feels Like</div>
-          <div className="value">{feels_like} °C</div>
+          <div className="value">{celcius_feels_like} °C</div>
 
         </div>
         <div className="humidity">

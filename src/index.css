@@ -14,3 +14,10 @@
   margin: 20px 0;
   font-size: 1.5em;
 }
+
+.loading-message {
+  color: rgba(245, 245, 245, 0.381); /* Or any color you prefer */
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.5em;
+}
