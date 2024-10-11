@@ -22,20 +22,20 @@ To run this project locally, follow these steps:
    ```bash
    git clone
    https://github.com/Jwaallaa/Weather-react.git
+   
 2. Navigate to the project directory:
-
-cd Weather-react
-
-
+```bash
+  cd Weather-react
+```
 3. Install the dependencies:
-
+```bash
 npm install
-
+```
 
 4. Start the development server:
-
+```bash
 npm start
-
+```
 
 
 Usage
