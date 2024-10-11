@@ -22,3 +22,38 @@ To run this project locally, follow these steps:
    ```bash
    git clone
    https://github.com/Jwaallaa/Weather-react.git
+2. Navigate to the project directory:
+
+cd Weather-react
+
+
+3. Install the dependencies:
+
+npm install
+
+
+4. Start the development server:
+
+npm start
+
+
+
+Usage
+
+Enter a city name in the search bar to get real-time weather data for that city.
+
+The app will display the temperature, weather conditions, and other relevant information.
+
+
+Technologies Used
+
+React: Front-end JavaScript library for building user interfaces.
+
+Axios: HTTP client for making requests to the OpenWeatherMap API.
+
+OpenWeatherMap API: Provides weather data used in the app.
+
+
+Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
