@@ -12,8 +12,8 @@ let changeInput = (e)=>{
     <div className="search">
         <input onChange={changeInput}  type="text" placeholder="Enter City Name" value={input}/>
         <button onClick={()=>{
+          setLocation(input.trim())
             setinput('')
-            setLocation(input)
         }}>Search</button>
         </div>
         
