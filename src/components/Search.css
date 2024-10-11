@@ -15,7 +15,7 @@
 }
 
 .search button{
-    cursor: default;
+    cursor: pointer;
     
     width: 100px;
     margin: 0 -2px;
