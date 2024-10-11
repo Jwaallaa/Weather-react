@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './Header.css';
-import weather_img  from '../../public/weather-icon.png'
 const Header = ({setLocation }) => {
 
 let changeLocation = (location)=>{
@@ -25,10 +24,18 @@ let changeLocation = (location)=>{
         {!menu?<div onClick={toggleMenu} className="btn">&#10023;popular cities&#10023;</div>: null}
 
         <div className="locations">
-            <div onClick={() => changeLocation('Kanpur')} className="location" >Kanpur</div>
-            <div onClick={() => changeLocation('Delhi')} className="location" >Delhi</div>
-            <div onClick={() => changeLocation('Mumbai')} className="location" >Mumbai</div>
-            <div onClick={() => changeLocation('Jaipur')} className="location" >Jaipur</div>
+            <div onClick={() => {changeLocation('Kanpur')
+              toggleMenu()
+            }} className="location" >Kanpur</div>
+            <div onClick={() => {changeLocation('Delhi')
+              toggleMenu()}
+            } className="location" >Delhi</div>
+            <div onClick={() => {changeLocation('Mumbai')
+              toggleMenu()}
+            } className="location" >Mumbai</div>
+            <div onClick={() => {changeLocation('Jaipur')
+              toggleMenu()}
+            } className="location" >Jaipur</div>
             {menu ?<div onClick={toggleMenu} className="cross">&#10006;</div>: null}
         </div>
     </header>
