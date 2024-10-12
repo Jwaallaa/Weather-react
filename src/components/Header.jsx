@@ -20,7 +20,7 @@ const Header = ({ setLocation }) => {
       <div className="title">simple_weather</div>
       {!menu && (
         <div onClick={toggleMenu} className="btn">
-          &#10023; popular cities &#10023;
+         popular cities &#10023;
         </div>
       )}
 
